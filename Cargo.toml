@@ -14,14 +14,13 @@ keywords = ["monaco", "editor", "wasm", "yew"]
 
 [dependencies]
 js-sys = "0.3.61"
-#monaco = "0.3.0"
-monaco = { version = "0.3.0", git = "https://github.com/siku2/rust-monaco" }
+monaco = "0.3.0"
 wasm-bindgen = "0.2.84"
 wasm-bindgen-futures = "0.4.34"
 yew = { version = "0.20", optional = true }
 
-#[patch.crates-io]
-#monaco = { git = "https://github.com/siku2/rust-monaco" }
+[patch.crates-io]
+monaco = { git = "https://github.com/siku2/rust-monaco" }
 
 [features]
 yew = [ "dep:yew", "monaco/yew-components" ]

@@ -2,6 +2,14 @@
 name = "monaco-editor-textmate-web"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+
+authors = ["Jens Reimann <jreimann@redhat.com>"]
+repository = "https://github.com/ctron/monaco-editor-textmate-web"
+readme = "README.md"
+
+categories = ["external-ffi-bindings", "text-processing", "wasm", "web-programming"]
+keywords = ["monaco", "editor", "wasm", "yew"]
 
 [dependencies]
 js-sys = "0.3.61"

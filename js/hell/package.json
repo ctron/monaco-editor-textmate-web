@@ -1,0 +1,27 @@
+{
+  "name": "monaco-editor-textmate-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "monaco-editor": "^0.35.0",
+    "monaco-editor-textmate": "^4.0.0",
+    "monaco-textmate": "^3.0.1",
+    "onigasm": "^2.2.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-url": "^8.0.1",
+    "rollup": "^2.61.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-styles": "^4.0.0"
+  }
+}
